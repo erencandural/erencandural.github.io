@@ -19,13 +19,12 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
 
 
 ### Author Info ###
 author:
   name              : Omer Erencan Dural
-  image             : https://imgur.com/adus91l
+  image             : <a href="https://imgur.com/adus91l"><img src="https://i.imgur.com/adus91l.jpg" title="source: imgur.com" /></a>
   behance           : erencandural
 # dribbble          : your_username
   email             : erencandural@gmail.com
@@ -39,7 +38,7 @@ author:
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
+  tumblr            : erencandural.tumblr.com
 # twitch            : your_username
 # twitter           : your_username
 # vimeo             : your_username
@@ -56,8 +55,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
 
 
 ### Disqus ###
@@ -89,11 +86,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
   - scope:
       path: ""
       type: "posts"
