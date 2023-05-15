@@ -7,8 +7,12 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Hi I am Erencan :crystal_ball:,<br>
+I'm a mechanical engineer inspired by the constantly evolving relationship between humankind and technology ever since I saw an RGB LED being controlled by an Arduino during my first week in university.
+
+I'm motivated to bring an interdisciplinary approach to mechanical engineering and I hope the projects I showcase here allow me to get in touch with the right mindsets.
+
+I'm interested in vertical farms, interactive art installations, the maker community and sustainable practices.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
