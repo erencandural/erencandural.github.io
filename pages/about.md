@@ -20,5 +20,9 @@ I'm interested in vertical farms, interactive art installations, the maker commu
 </div>
 
 <div class="row">
+{% include about/work.html %}
+</div>
+
+<div class="row">
 {% include about/timeline.html %}
 </div>
