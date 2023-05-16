@@ -20,9 +20,9 @@ I'm interested in vertical farms, interactive art installations, the maker commu
 </div>
 
 <div class="row">
-{% include about/work.html %}
+{% include about/timeline.html title="Work Experience" source=site.data.work %}
 </div>
 
 <div class="row">
-{% include about/timeline.html %}
+{% include about/timeline.html title="Academic Experience" source=site.data.timeline %}
 </div>
