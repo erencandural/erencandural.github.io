@@ -3,7 +3,7 @@
   color: warning
 
 - name: Processing IDE
-  percentage: 60
+  percentage: 70
   color: warning
 
 - name: Python
@@ -12,4 +12,8 @@
 
 - name: MATLAB / Simulink
   percentage: 70
+  color: warning
+
+- name: C#
+  percentage: 30
   color: warning

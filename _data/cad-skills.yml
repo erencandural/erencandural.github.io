@@ -1,0 +1,15 @@
+- name: Autodesk Fusion 360
+  percentage: 70
+  color: primary
+
+- name: Eagle
+  percentage: 30
+  color: primary
+
+- name: Solidworks
+  percentage: 50
+  color: primary
+
+- name: KeyCreator CAD
+  percentage: 40
+  color: primary

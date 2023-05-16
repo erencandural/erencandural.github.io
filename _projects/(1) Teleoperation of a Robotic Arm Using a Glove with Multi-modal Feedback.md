@@ -6,6 +6,7 @@ description: Master's Degree Thesis Topic in Politecnico di Milano
 # external_url: https://www.google.com
 ---
 
+# Teleoperation of a Robotic Arm Using a Glove with Multi-modal Feedback
 The aim in this project was to create a teleoperation environment in Unity to control a Franka Emika Panda robot using WEART' TouchDIVER.
 
 It was proven that haptic feedback, in addition to visual feedback, improves the sense of telepresence and the overall performance of the user in a tele-assembly task.

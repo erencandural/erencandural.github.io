@@ -15,14 +15,12 @@ I'm motivated to bring an interdisciplinary approach to mechanical engineering a
 I'm interested in vertical farms, interactive art installations, the maker community and sustainable practices.
 
 <div class="row">
+{% include about/skills.html title="CAD Skills" source=site.data.cad-skills %}
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+
 </div>
 
 <div class="row">
-{% include about/timeline.html title="Work Experience" source=site.data.work %}
-</div>
-
-<div class="row">
-{% include about/timeline.html title="Academic Experience" source=site.data.timeline %}
+{% include about/timeline.html %}
 </div>
