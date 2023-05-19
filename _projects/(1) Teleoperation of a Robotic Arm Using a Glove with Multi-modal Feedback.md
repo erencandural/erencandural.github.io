@@ -41,3 +41,14 @@ The system architecture can be found below.
 
 {% include elements/figure.html image="https://i.imgur.com/VA2q33f.png" caption="Remote environment setup" %}
 
+## Methodology
+There are essentially three controllers developed in the system:
+* Robot Controller
+* Gripper Controller
+* Custom Feedback
+
+The robot controller in the system is the Cartesian Impedance controller that comes with the franka-ros library. It comes with a safety feature that brakes the robot whenever the magnitude of an external wrench acting on the end effector fram exceeds a certain value, 20N in this case.
+
+The franka-ros library also comes with ROS actions that control the gripper. However, these actions are meant to be used sequentially. In order to transition between these commands and create a heightened sense of telepresence, a state machine was written for the gripper controller. The schematic of this state machine can be found below.
+
+{% include elements/figure.html image="https://i.imgur.com/qnBrhsM.png" caption="Remote environment setup" %}

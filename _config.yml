@@ -1,7 +1,8 @@
 ### Site Settings ###
 title               : Omer Erencan Dural
 description         : >-
-                      Hello, I'm Erencan. I like robots, hearts and magic.\n
+                      Hello, I'm Erencan. I like robots, hearts and magic.
+                      
                       :sparkles: :heartpulse: :crystal_ball: :heartpulse: :sparkles:
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : erencandural/erencandural.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
