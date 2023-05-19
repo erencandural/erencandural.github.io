@@ -53,4 +53,11 @@ The franka-ros library also comes with ROS actions that control the gripper. How
 
 {% include elements/figure.html image="https://i.imgur.com/qnBrhsM.png" caption="System architecture" %}
 
-Finally, a custom feedback scenario was developed using the WEART Unity assets. In this scenario force feedback corresponds to the external wrench acting on the end effector, the 
+Finally, a custom feedback scenario was developed using the WEART Unity assets. In this scenario force feedback corresponds to the external wrench acting on the end effector, the maximum amount of force feedback corresponds to the Cartesian reflex, i.e. the safety brake of 20N, so that the users can gage how they are interacting with the environment.
+
+![force feedback](https://i.imgur.com/aAZUaEd.png "Force Feedback scenario")
+
+The haptic feedback is used to signal to the user whether the grasp was successful or not. The grasp action in the gripper controller feedbacks the result via a ROS topic. If the grasp is a success, the user gets a "Single Click" sensation and a "Double Click" sensation if it's a failure. The haptic feedback scenario was achieved only in the simulated environment, however.
+
+![haptic feedback success](https://i.imgur.com/yOP0TlJ.png "Haptic Feedback scenario 1")
+![haptic feedback failure](https://i.imgur.com/Wc6z8k7.png "Haptic Feedback scenario 2")
