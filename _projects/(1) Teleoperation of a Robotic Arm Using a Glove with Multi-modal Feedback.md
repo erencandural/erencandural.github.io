@@ -9,7 +9,7 @@ description: Master's Degree Thesis Topic in Politecnico di Milano
 # Teleoperation of a Robotic Arm Using a Glove with Multi-modal Feedback
 The aim in this project was to create a teleoperation environment in Unity to control a Franka Emika Panda robot using WEART' TouchDIVER. This is my Master's Degree thesis project for Mechanical Engineering in Politecnico di Milano.
 
-{% include elements/figure.html image="https://i.imgur.com/Fv5AHpw.jpg" caption="Remote environment setup" %}
+{% include elements/figure.html image="https://i.imgur.com/Fv5AHpw.jpg" caption="Overall view of the project" %}
 
 It was proven that haptic feedback, in addition to visual feedback, improves the sense of telepresence and the overall performance of the user in a tele-assembly task.
 
@@ -35,7 +35,7 @@ The main base of operations for this project was Unity as it provides possibilit
 
 There are two operating systems in this project, Linux and Windows. This is due to the fact that the WEART TouchDIVER middleware is a Windows-native application and the franka-ros library that controls the Franka Emika Panda doesn't work on Windows.
 
-The bridge that connects ROS and Unit is a set of ope-source libraries called [ROS#](https://github.com/siemens/ros-sharp). Essentially, it handles the replication of the robot through URDF files, the coordinate system conversion between Unity and ROS and passes the messages between two systems. Since it's open source, several additional assets specific to Franka Emika Panda were created.
+The bridge that connects ROS and Unit is a set of open-source libraries called [ROS#](https://github.com/siemens/ros-sharp). Essentially, it handles the replication of the robot through URDF files, the coordinate system conversion between Unity and ROS and passes the messages between two systems. Since it's open source, several additional assets specific to Franka Emika Panda were created.
 
 The system architecture can be found below.
 
@@ -47,8 +47,10 @@ There are essentially three controllers developed in the system:
 * Gripper Controller
 * Custom Feedback
 
-The robot controller in the system is the Cartesian Impedance controller that comes with the franka-ros library. It comes with a safety feature that brakes the robot whenever the magnitude of an external wrench acting on the end effector fram exceeds a certain value, 20N in this case.
+The robot controller in the system is the Cartesian Impedance controller that comes with the franka-ros library. It comes with a safety feature that brakes the robot whenever the magnitude of an external wrench acting on the end effector frame exceeds a certain value, 20N in this case.
 
 The franka-ros library also comes with ROS actions that control the gripper. However, these actions are meant to be used sequentially. In order to transition between these commands and create a heightened sense of telepresence, a state machine was written for the gripper controller. The schematic of this state machine can be found below.
 
-{% include elements/figure.html image="https://i.imgur.com/qnBrhsM.png" caption="Remote environment setup" %}
+{% include elements/figure.html image="https://i.imgur.com/qnBrhsM.png" caption="System architecture" %}
+
+Finally, a custom feedback scenario was developed using the WEART Unity assets. In this scenario force feedback corresponds to the external wrench acting on the end effector, the 
