@@ -7,13 +7,21 @@ description: Master's Degree Thesis Topic in Politecnico di Milano
 ---
 
 # Teleoperation of a Robotic Arm Using a Glove with Multi-modal Feedback
-The aim in this project was to create a teleoperation environment in Unity to control a Franka Emika Panda robot using WEART' TouchDIVER. This is my Master's Degree thesis project for Mechanical Engineering in Politecnico di Milano.
+The aim in this project was to create a teleoperation environment in Unity to control a Franka Emika Panda robot using WEART's TouchDIVER. This is my Master's Degree thesis project for Mechanical Engineering in Politecnico di Milano.
 
 {% include elements/figure.html image="https://i.imgur.com/Fv5AHpw.jpg" caption="Overall view of the project" %}
 
 It was proven that haptic feedback, in addition to visual feedback, improves the sense of telepresence and the overall performance of the user in a tele-assembly task.
 
 The work was done in collaboration with IDSIA USI-SUPSI under the guidance of Francesco Braghin, Loris Roveda and Asad Ali Shahid.
+
+There were two steps to this project; establishing the virtual space and then applying it to the actual robot.
+The simulation environment was used to verify that the robot controllers are communicating with the Unity and environment and are responsive to the WEART TouchDIVER. Below, a simple pick and place task in the Unity environment can be seen.
+{% include elements/video.html id="oPmNJ25dEYc" %}
+
+Once the real robot was involved, the Unity environment acted as a control interface for the user, displaying two camera feeds and the simulated robot state.
+{% include elements/video.html id="hsfufMpFk60" %}
+{% include elements/video.html id="GUH9oQvIqe0" %}
 
 ## Hardware
 ### Master Side
@@ -43,9 +51,9 @@ The system architecture can be found below.
 
 ## Methodology
 There are essentially three controllers developed in the system:
-* Robot Controller
-* Gripper Controller
-* Custom Feedback
+* Robot Controller (ROS controller)
+* Gripper Controller (python)
+* Custom Feedback (C#)
 
 The robot controller in the system is the Cartesian Impedance controller that comes with the franka-ros library. It comes with a safety feature that brakes the robot whenever the magnitude of an external wrench acting on the end effector frame exceeds a certain value, 20N in this case.
 
