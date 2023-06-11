@@ -10,7 +10,7 @@ description: Master's Degree Thesis Topic in Politecnico di Milano
 
 The aim in this project was to create a teleoperation environment in Unity to control a Franka Emika Panda robot using WEART's TouchDIVER. This is my Master's Degree thesis project for Mechanical Engineering in Politecnico di Milano.
 
-{% include elements/figure.html image="<https://i.imgur.com/Fv5AHpw.jpg>" caption="Overall view of the project" %}
+{% include elements/figure.html image="https://i.imgur.com/Fv5AHpw.jpg" caption="Overall view of the project" %}
 
 It was proven that haptic feedback, in addition to visual feedback, improves the sense of telepresence and the overall performance of the user in a tele-assembly task.
 
@@ -30,9 +30,9 @@ Once the real robot was involved, the Unity environment acted as a control inter
 
 The controller interface is a wearable device called [TouchDIVER](https://www.weart.it/touchdiver/) developed by WEART. It's capable of force, temperature and texture feedback. Moreover, it can track the positions of the fingers with respect to the palm. The position tracking of the device is achieved through a magnetic adaptor attached to the palm and in this project, the hand position is tracked using [OptiTrack](https://optitrack.com/). Below are some images of TouchDIVER with the custom OptiTrack Controller
 {% capture carousel_images %}
-<https://i.imgur.com/CJNWdsK.jpg>
-<https://i.imgur.com/EeSfJCr.jpg>
-<https://i.imgur.com/JcGE1Wc.jpg>
+https://i.imgur.com/CJNWdsK.jpg
+https://i.imgur.com/EeSfJCr.jpg
+https://i.imgur.com/JcGE1Wc.jpg
 {% endcapture %}
 {% include elements/carousel.html %}
 
@@ -40,7 +40,7 @@ The controller interface is a wearable device called [TouchDIVER](https://www.we
 
 The remote operator in this project, a.k.a. the teleoperator, is the [Franka Emika Panda](https://www.franka.de/) which is a 7-DoF research robot with torque sensors at every joint. The robot is equipped with cameras, one at the end effector frame, the other at giving an overall view of the environment to give visual feedback to the user.
 
-{% include elements/figure.html image="<https://i.imgur.com/crkEctd.jpg>" caption="Remote environment setup" %}
+{% include elements/figure.html image="https://i.imgur.com/crkEctd.jpg" caption="Remote environment setup" %}
 
 ## Software
 
@@ -52,7 +52,7 @@ The bridge that connects ROS and Unit is a set of open-source libraries called [
 
 The system architecture can be found below.
 
-{% include elements/figure.html image="<https://i.imgur.com/VA2q33f.png>" caption="Remote environment setup" %}
+{% include elements/figure.html image="https://i.imgur.com/VA2q33f.png" caption="Remote environment setup" %}
 
 ## Methodology
 
@@ -66,7 +66,7 @@ The robot controller in the system is the Cartesian Impedance controller that co
 
 The franka-ros library also comes with ROS actions that control the gripper. However, these actions are meant to be used sequentially. In order to transition between these commands and create a heightened sense of telepresence, a state machine was written for the gripper controller. The schematic of this state machine can be found below.
 
-{% include elements/figure.html image="<https://i.imgur.com/qnBrhsM.png>" caption="System architecture" %}
+{% include elements/figure.html image="https://i.imgur.com/qnBrhsM.png" caption="System architecture" %}
 
 Finally, a custom feedback scenario was developed using the WEART Unity assets. In this scenario force feedback corresponds to the external wrench acting on the end effector, the maximum amount of force feedback corresponds to the Cartesian reflex, i.e. the safety brake of 20N, so that the users can gage how they are interacting with the environment.
 
