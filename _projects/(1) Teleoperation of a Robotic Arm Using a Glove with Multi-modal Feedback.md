@@ -32,7 +32,7 @@ The controller interface is a wearable device called [TouchDIVER](https://www.we
 {% capture carousel_images %}
 <https://i.imgur.com/CJNWdsK.jpg>
 <https://i.imgur.com/EeSfJCr.jpg>
-<https://i.imgur.com/JcGE1Wc.jpg?>
+<https://i.imgur.com/JcGE1Wc.jpg>
 {% endcapture %}
 {% include elements/carousel.html %}
 
