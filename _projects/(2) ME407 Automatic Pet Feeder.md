@@ -2,7 +2,7 @@
 name: ME407 Automatic Pet Feeder
 tools: [Arduino, Eagle, Fusion 360, robotics, PCB Design, Mechanical Design, Prototyping]
 image: https://imgur.com/aqpu8cv.jpg
-description: Master's Degree Thesis Topic in Politecnico di Milano
+description: Bachelor's Degree Final Project in Middle East Technical University
 # external_url: https://www.google.com
 ---
 
