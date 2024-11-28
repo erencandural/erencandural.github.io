@@ -15,19 +15,22 @@
       institution: Politecnico di Milano / Technical University of Milan, Milan, Italy
       year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Thesis Topic
+            contents:
+            - Teleoperation of a Robotic Arm Using a Glove with Multi-Modal Feedback
+        - title: List of Elective Courses Taken
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Robotic Systems Design, Automatic Control A, Mechatronic Systems and Laboratory A, Electrical Drives for Industry and Transport Applications, Critical Thinking
+        - title: Skills
+          contents:
+            - 3D Computer Aided Design (3D CAD) · Robot Operating System (ROS) · Teamwork · LaTeX · Programming · Robotics · Prototyping
     - title: BSc.
       institution: Middle East Technical University, Ankara, Turkey
       year: 2019
       description:
         - Description 1.
         - Description 2.
-      - title: High Scool Diploma
+    - title: High Scool Diploma
       institution: TED Ankara College Foundation Private High School, Ankara, Turkey
       year: 2019
       description:
