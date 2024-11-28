@@ -14,13 +14,30 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Smart Engineering, NTT Data Italia",
+      "position": "Research and Development System Engineer",
+      "url": "https://it.nttdata.com/",
+      "startDate": "2023-09-04",
+      "endDate": "-",
+      "summary": "Function owner of a car application in Audi. Responsible from the ongoing activities in the development of new car apps.",
+      "highlights": ["System Enginering", "Agile Methodologies"]
+    },
+    {
+      "name": "Metis PR",
+      "position": "Design Week 2023 Intern",
+      "url": "https://www.metispr.com/",
+      "startDate": "2023-04-01",
+      "endDate": "2023-04-30",
+      "summary": "Took an active role in organization and planning of clients’ events during Milan Design Week 2023."
+    },
+    {
+      "name": "Haier Europe",
+      "position": "Industrialization Engineer Intern",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "2022-09-01",
+      "endDate": "2023-02-28",
+      "summary": "Aided the industrialization team in bridging the gap between the engineering and manufacturing section, especially with Automated Testing Equipment of Printed Circuit Boards.",
+      "highlights": ["System Engineering"]
     }
   ],
   "education": [
@@ -63,11 +80,11 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Evaluation of Tactile Feedback for Teleoperated Glove-Based Interaction Tasks",
+      "publisher": "Human-Friendly Robotics 2023",
+      "releaseDate": "2024-03-10",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-55000-3_6",
+      "summary": "This paper investigates the use of haptic feedback for glove-based teleoperation in interaction tasks. In particular, tactile feedback is provided to the operator’s fingers to render the force applied to the robot end-effector through the WEART TouchDIVER glove, together with visual feedback."
     }
   ],
   "skills": [
@@ -76,6 +93,12 @@
       "level": "Intermediary",
       "icon": "fa-solid fa-robot",
       "keywords": ["3D CAD", "PCB Design", "Prototyping", "ROS2", "FDM"]
+    },
+    {
+      "name": "System Engineer",
+      "level": "Intermediary",
+      "icon": "fa-code",
+      "keywords": ["Function Owner", "Agile SW Development", "Project Management", "Problem Analysis", "Coordination"]
     }
   ],
   "languages": [
@@ -98,13 +121,6 @@
       "language": "German",
       "fluency": "Beginner",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Robotics Engineering",
-      "icon": "fa-solid fa-robot",
-      "keywords": ["3D CAD", "PCB Design", "Prototyping", "ROS2", "FDM"]
     }
   ],
   "projects": [
