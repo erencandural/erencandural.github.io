@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Omer Erencan Dural",
+    "label": "Research and Development Engineer",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "erencandural@gmail.com",
     "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "url": "https://erencandural.github.io/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Caiazzo",
+      "postalCode": "20124",
+      "city": "Milan",
+      "countryCode": "IT",
+      "region": "Lombardy"
     },
     "profiles": [
       {
@@ -47,15 +47,15 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Politecnico di Milano - Polytechnic University of Milan, Milan, Italy",
+      "location": "Milan, Italy",
+      "url": "https://www.polimi.it/",
+      "area": "Mechanical Engineering - Mechatronics and Robotics",
+      "studyType": "MSc.",
+      "startDate": "2019-09-16",
+      "endDate": "2023-06-04",
+      "score": "101/110",
+      "courses": ["Robotic Systems Design", "Automatic Control A", "Mechatronic Systems and Laboratory A", "Electrical Drives for Industry and Transport Applications", "Critical Thinking"]
     }
   ],
   "awards": [
