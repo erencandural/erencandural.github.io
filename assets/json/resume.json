@@ -33,7 +33,14 @@
       "startDate": "2019-09-16",
       "endDate": "2023-06-04",
       "score": "101/110",
-      "courses": ["Thesis Topic: Teleoperation of a Robotic Arm Using a Glove with Multi-Modal Feedback", "Robotic Systems Design", "Automatic Control A", "Mechatronic Systems and Laboratory A", "Electrical Drives for Industry and Transport Applications", "Critical Thinking"]
+      "courses": [
+        "Thesis Topic: Teleoperation of a Robotic Arm Using a Glove with Multi-Modal Feedback",
+        "Robotic Systems Design",
+        "Automatic Control A",
+        "Mechatronic Systems and Laboratory A",
+        "Electrical Drives for Industry and Transport Applications",
+        "Critical Thinking"
+      ]
     },
     {
       "institution": "Middle East Technical University, Ankara, Turkey",
@@ -44,7 +51,14 @@
       "startDate": "2015-10-05",
       "endDate": "2019-06-30",
       "score": "3.5/4.0",
-      "courses": ["Steam Generator and Heat Exchanger Design", "Mechanical Vibrations", "Design of Control Systems", "Fundamentals of Micro-Electromechanical Systems", "Mechatronic Components and Instruments", "Mechatronic Design"]
+      "courses": [
+        "Steam Generator and Heat Exchanger Design",
+        "Mechanical Vibrations",
+        "Design of Control Systems",
+        "Fundamentals of Micro-Electromechanical Systems",
+        "Mechatronic Components and Instruments",
+        "Mechatronic Design"
+      ]
     }
   ],
   "publications": [
@@ -61,13 +75,7 @@
       "name": "Robotics Engineer",
       "level": "Intermediary",
       "icon": "fa-solid fa-robot",
-      "keywords": [
-        "3D CAD",
-        "PCB Design",
-        "Prototyping",
-        "ROS2",
-        "FDM"
-      ]
+      "keywords": ["3D CAD", "PCB Design", "Prototyping", "ROS2", "FDM"]
     }
   ],
   "languages": [
@@ -96,13 +104,7 @@
     {
       "name": "Robotics Engineering",
       "icon": "fa-solid fa-robot",
-      "keywords": [
-        "3D CAD",
-        "PCB Design",
-        "Prototyping",
-        "ROS2",
-        "FDM"
-      ]
+      "keywords": ["3D CAD", "PCB Design", "Prototyping", "ROS2", "FDM"]
     }
   ],
   "projects": [
