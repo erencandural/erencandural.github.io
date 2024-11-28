@@ -55,60 +55,18 @@
       "startDate": "2019-09-16",
       "endDate": "2023-06-04",
       "score": "101/110",
-      "courses": ["Robotic Systems Design", "Automatic Control A", "Mechatronic Systems and Laboratory A", "Electrical Drives for Industry and Transport Applications", "Critical Thinking"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "courses": ["Thesis Topic: Teleoperation of a Robotic Arm Using a Glove with Multi-Modal Feedback", "Robotic Systems Design", "Automatic Control A", "Mechatronic Systems and Laboratory A", "Electrical Drives for Industry and Transport Applications", "Critical Thinking"]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "Middle East Technical University, Ankara, Turkey",
+      "location": "Ankara, Turkey",
+      "url": "https://www.metu.edu.tr/",
+      "area": "Mechanical Engineering",
+      "studyType": "BSc.",
+      "startDate": "2015-10-05",
+      "endDate": "2019-06-30",
+      "score": "3.5/4.0",
+      "courses": ["Steam Generator and Heat Exchanger Design", "Mechanical Vibrations", "Design of Control Systems", "Fundamentals of Micro-Electromechanical Systems", "Mechatronic Components and Instruments", "Mechatronic Design"]
     }
   ],
   "publications": [
