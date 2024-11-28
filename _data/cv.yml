@@ -16,7 +16,7 @@
       year: 2023
       description:
         - title: Thesis Topic
-            contents:
+          contents:
             - Teleoperation of a Robotic Arm Using a Glove with Multi-Modal Feedback
         - title: List of Elective Courses Taken
           contents:
