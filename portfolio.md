@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Portfolio
+nav_order: 2
 ---
 
 # Portfolio
