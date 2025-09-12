@@ -9,3 +9,19 @@ nav_order: 2
 # Portfolio
 
 A collection of my projects and work.
+
+---
+
+<a href="/portfolio/project1">
+  <img src="https://i.imgur.com/CJNWdsK.jpg" alt="Project 1" width="400"/>
+</a>  
+**Project 1 Title**  
+Short description of the project.
+
+---
+
+<a href="/portfolio/project2">
+  <img src="https://i.imgur.com/EeSfJCr.jpg" alt="Project 2" width="400"/>
+</a>  
+**Project 2 Title**  
+Short description of the project.
