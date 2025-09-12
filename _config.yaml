@@ -1,7 +1,7 @@
-title: O. Erencan Dural
-description: Under construction! This is where I'll be putting my CV, portfolio and my blog.
+title: EO. Erencan Dural
+logo: /assets/img/erencan.jpg
+description: Under construction
 
-# Use GitHub’s Minimal theme
 remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:

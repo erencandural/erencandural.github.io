@@ -1,5 +1,8 @@
-title: Erencan's Github Page
-logo: /assets/img/erencan.jpg
-description: Minimal is a theme for GitHub Pages.
+---
+layout: default
+title: Home
+---
 
-theme: jekyll-theme-minimal
+# Welcome to my Github page
+
+This is my landing page. 🚀
