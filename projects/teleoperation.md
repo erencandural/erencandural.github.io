@@ -18,17 +18,28 @@ The work was done in collaboration with IDSIA USI-SUPSI under the guidance of Fr
 There were two steps to this project; establishing the virtual space and then applying it to the actual robot.
 The simulation environment was used to verify that the robot controllers are communicating with the Unity and environment and are responsive to the WEART TouchDIVER. Below, a simple pick and place task in the Unity environment can be seen.
 
-<!-- {% include video.liquid id="oPmNJ25dEYc" %} -->
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/oPmNJ25dEYc" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+> The simulated environment
 
 Once the real robot was involved, the Unity environment acted as a control interface for the user, displaying two camera feeds and the simulated robot state.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=hsfufMpFk60
-" target="_blank"><img src="http://img.youtube.com/vi/hsfufMpFk60/0.jpg" 
-alt="UI During the Experiments" width="240" height="180" border="10" /></a>
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/hsfufMpFk60" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+> The UI visible to the user during opertaion.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=GUH9oQvIqe0
-" target="_blank"><img src="http://img.youtube.com/vi/GUH9oQvIqe0/0.jpg" 
-alt="UI During the Experiments" width="240" height="180" border="10" /></a>
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/GUH9oQvIqe0" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+> What a successful attempt looks like, along with the graph of the force applied to the end effector.
 
 ## Hardware
 
@@ -36,9 +47,9 @@ alt="UI During the Experiments" width="240" height="180" border="10" /></a>
 
 The controller interface is a wearable device called [TouchDIVER](https://www.weart.it) developed by WEART. It's capable of force, temperature and texture feedback. Moreover, it can track the positions of the fingers with respect to the palm. The position tracking of the device is achieved through a magnetic adaptor attached to the palm and in this project, the hand position is tracked using [OptiTrack](https://optitrack.com/). Below are some images of TouchDIVER with the custom OptiTrack Controller
 
-<!-- {% include figure.liquid path="https://i.imgur.com/CJNWdsK.jpg" %}
-{% include figure.liquid path="https://i.imgur.com/EeSfJCr.jpg" %}
-{% include figure.liquid path="https://i.imgur.com/JcGE1Wc.jpg" %} -->
+![TouchDIVER 1](https://i.imgur.com/CJNWdsK.jpg)
+![TouchDIVER 2](https://i.imgur.com/EeSfJCr.jpg)
+![TouchDIVER 3](https://i.imgur.com/JcGE1Wc.jpg)
 
 ### Slave Side
 
@@ -56,7 +67,7 @@ The bridge that connects ROS and Unit is a set of open-source libraries called [
 
 The system architecture can be found below.
 
-![Remote environment setup](https://i.imgur.com/VA2q33f.png "Force Feedback scenario")
+![Conceptual system architecture](https://i.imgur.com/VA2q33f.png)
 
 ## Methodology
 
@@ -70,11 +81,11 @@ The robot controller in the system is the Cartesian Impedance controller that co
 
 The franka-ros library also comes with ROS actions that control the gripper. However, these actions are meant to be used sequentially. In order to transition between these commands and create a heightened sense of telepresence, a state machine was written for the gripper controller. The schematic of this state machine can be found below.
 
-![Grip state machine](https://i.imgur.com/qnBrhsM.png "Force Feedback scenario")
+![Grip state machine](https://i.imgur.com/qnBrhsM.png)
 
 Finally, a custom feedback scenario was developed using the WEART Unity assets. In this scenario force feedback corresponds to the external wrench acting on the end effector, the maximum amount of force feedback corresponds to the Cartesian reflex, i.e. the safety brake of 20N, so that the users can gage how they are interacting with the environment.
 
-![force feedback](https://i.imgur.com/aAZUaEd.png "Force Feedback scenario")
+![safety](https://i.imgur.com/aAZUaEd.png)
 
 The haptic feedback is used to signal to the user whether the grasp was successful or not. The grasp action in the gripper controller feedbacks the result via a ROS topic. If the grasp is a success, the user gets a "Single Click" sensation and a "Double Click" sensation if it's a failure. The haptic feedback scenario was achieved only in the simulated environment, however.
 
