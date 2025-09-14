@@ -17,7 +17,8 @@ The work was done in collaboration with IDSIA USI-SUPSI under the guidance of Fr
 
 There were two steps to this project; establishing the virtual space and then applying it to the actual robot.
 The simulation environment was used to verify that the robot controllers are communicating with the Unity and environment and are responsive to the WEART TouchDIVER. Below, a simple pick and place task in the Unity environment can be seen.
-{% include video.liquid id="oPmNJ25dEYc" %}
+
+<!-- {% include video.liquid id="oPmNJ25dEYc" %} -->
 
 Once the real robot was involved, the Unity environment acted as a control interface for the user, displaying two camera feeds and the simulated robot state.
 
