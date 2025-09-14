@@ -25,7 +25,7 @@ In my master's degree thesis, I created a virtual environment in Unity to contro
 ---
 
 <a href="/portfolio/petfeeder">
-  <img src="https://i.imgur.com/aqpu8cv.jpg alt="Project 2" width="400"/>
+  <img src="https://i.imgur.com/aqpu8cv.jpg" alt="Automatic Pet Feeder" width="400"/>
 </a>
 
 ## Automatic Pet Feeder
