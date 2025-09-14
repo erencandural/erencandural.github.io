@@ -12,8 +12,8 @@ A collection of my projects and work.
 
 ---
 
-<a href="/portfolio/project1">
-  <img src="https://i.imgur.com/CJNWdsK.jpg" alt="Project 1" width="400"/>
+<a href="/projects/teleoperation">
+  <img src="https://i.imgur.com/CJNWdsK.jpg" alt="Teleoperation of a Robotic Arm Using a Glove with Multi-modal Feedback" width="400"/>
 </a>  
 **Project 1 Title**  
 Short description of the project.
