@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Blog
-nav_order: 3
 ---
 
 [Home](/) | [Blog](/blog) | [Portfolio](/portfolio) | [Resume](/resume)
