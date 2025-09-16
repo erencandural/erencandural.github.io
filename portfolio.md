@@ -39,7 +39,7 @@ In my bachelor's degree final project in Middle East Technical University, we've
   <img src="https://imgur.com/RsYoyuJ" alt="ID403 Energy Saving Kit for a Beer Cooler" width="400"/>
 </a>
 
-## [ID403 Energy Saving Kit for a Beer Cooler](projects/petfeeder)
+## [ID403 Energy Saving Kit for a Beer Cooler](projects/energykit)
 
 The ID403 Collaborative Design course is a course aimed at non-designers offered by the Industrial Design Department at Middle East Technical University, aimed to put Design Thinking and Interdisciplinary Design teachings into practice.
 
