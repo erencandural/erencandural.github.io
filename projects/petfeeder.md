@@ -34,6 +34,34 @@ In addition, a 2-layer PCB was designed in Eagle, the design of which can be see
 
 A state machine was created to act as the UI and the Arduino code checks for the time at every loop. The screen along different levels of the UI can be seen below.
 
+<style>
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+.carousel img {
+  display: none;
+  width: 100%;
+}
+
+.carousel img.active {
+  display: block;
+}
+
+.carousel-buttons {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.carousel-buttons button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+</style>
+
 <div class="carousel" id="myCarousel">
   <img src="https://imgur.com/4OY5Aaj.png" alt="Opening Screen" class="active"/>
   <img src="https://imgur.com/LkGxwtI.png" alt="Meal Plan"/>
