@@ -3,7 +3,7 @@ layout: default
 title: Portfolio
 ---
 
-[Home](/) | [Blog](/blog) | [Portfolio](/portfolio) | [Resume](/resume)
+[Home](/) | [Blog](/blog) | [Projects](/projects) | [Resume](/resume)
 
 # Portfolio
 
@@ -23,7 +23,7 @@ In my master's degree thesis in Politecnico di Milano, I created a virtual envir
 
 ---
 
-<a href="/portfolio/petfeeder">
+<a href="/projects/petfeeder">
   <img src="https://i.imgur.com/aqpu8cv.jpg" alt="Automatic Pet Feeder" width="400"/>
 </a>
 
@@ -35,7 +35,7 @@ In my bachelor's degree final project in Middle East Technical University, we've
 
 ---
 
-<a href="/portfolio/energykit">
+<a href="/projects/energykit">
   <img src="https://imgur.com/RsYoyuJ" alt="ID403 Energy Saving Kit for a Beer Cooler" width="400"/>
 </a>
 
