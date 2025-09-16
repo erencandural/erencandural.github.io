@@ -36,7 +36,7 @@ In my bachelor's degree final project in Middle East Technical University, we've
 ---
 
 <a href="/projects/energykit">
-  <img src="https://imgur.com/RsYoyuJ" alt="ID403 Energy Saving Kit for a Beer Cooler" width="400"/>
+  <img src="https://imgur.com/RsYoyuJ.png)" alt="ID403 Energy Saving Kit for a Beer Cooler" width="400"/>
 </a>
 
 ## [ID403 Energy Saving Kit for a Beer Cooler](projects/energykit)
