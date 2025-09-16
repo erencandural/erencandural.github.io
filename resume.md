@@ -73,16 +73,16 @@ My resume can be viewed or downloaded [here](assets/doc/CV.pdf).
 
 # Skills
 
-** Technical Skills **
+**Technical Skills**
 
-- Advanced: Arduino IDE, Unity 3D, MATLAB, Simulink, Simscape, LATEX, Microsoft Office
-- Upper Intermediate: Autodesk Fusion 360, Inkscape, Processing IDE, ROS2
-- Intermediate: DOORS, Atlassian Tools, Adobe CC, Mathematica, Python, C, Raspberry Pi, Affinity Suite
-- Basic: Solidworks CAD, Linux Command Line Shell Scripting, Zephyr OS Development, Embedded Systems
+- **Advanced**: Arduino IDE, Unity 3D, MATLAB, Simulink, Simscape, LATEX, Microsoft Office
+- **Upper Intermediate**: Autodesk Fusion 360, Inkscape, Processing IDE, ROS2
+- **Intermediate**: DOORS, Atlassian Tools, Adobe CC, Mathematica, Python, C, Raspberry Pi, Affinity Suite
+- **Basic**: Solidworks CAD, Linux Command Line Shell Scripting, Zephyr OS Development, Embedded Systems
 
-** Language Skills **
+**Language Skills**
 
-- Turkish: Native language
-- English: Professional or bilingual proficiency
-- Italian: Professional or bilingual proficiency
-- German: Beginner
+- **Turkish**: Native language
+- **English**: Professional or bilingual proficiency
+- **Italian**: Professional or bilingual proficiency (C1)
+- **German**: Beginner
