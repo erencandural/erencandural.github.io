@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Portfolio
-nav_order: 2
 ---
 
 [Home](/) | [Blog](/blog) | [Portfolio](/portfolio) | [Resume](/resume)
@@ -18,7 +17,7 @@ A collection of my projects and work.
 
 ## [Teleoperation of a Robotic Arm Using a Glove with Multi-modal Feedback](/projects/teleoperation)
 
-In my master's degree thesis, I created a virtual environment in Unity to control the end effector of a Franka Emika Panda robot using TouchDIVER, a glove developed for XR environments.
+In my master's degree thesis in Politecnico di Milano, I created a virtual environment in Unity to control the end effector of a Franka Emika Panda robot using TouchDIVER, a glove developed for XR environments.
 
 **Concepts:** Unity 3D, ROS, robotics, state machines, python, C#, Unity Robotics Hub, Unity scripts, XR
 
@@ -28,8 +27,8 @@ In my master's degree thesis, I created a virtual environment in Unity to contro
   <img src="https://i.imgur.com/aqpu8cv.jpg" alt="Automatic Pet Feeder" width="400"/>
 </a>
 
-## Automatic Pet Feeder
+## [Automatic Pet Feeder](projects/petfeeder)
 
-In my bachelor's degree final project, we've created an automatic pet feeder capable of distributing predetermined amounts of kibbles at scheduled times. I was responsible from the entire electromechanical design of the system.
+In my bachelor's degree final project in Middle East Technical University, we've created an automatic pet feeder capable of distributing predetermined amounts of kibbles at scheduled times. I was responsible from the entire electromechanical design of the system.
 
-**Concepts:** Arduino IDE, motor control, UI, Proof-of-Concept, Prototyping, 3D CAD, PCB Design, state machines
+**Concepts:** Arduino IDE, Eagle, Fusion 360, motor control, UI, Proof-of-Concept, Prototyping, 3D CAD, PCB Design, state machines
