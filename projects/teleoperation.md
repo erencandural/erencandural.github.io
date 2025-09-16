@@ -3,7 +3,7 @@ layout: default
 title: Teleoperation of a Robotic Arm Using a Glove with Multi-modal Feedback
 ---
 
-[Home](/) | [Blog](/blog) | [Portfolio](/portfolio) | [Resume](/resume)
+[Home](/) | [Blog](/blog) | [Projects](/projects) | [Resume](/resume)
 
 # Teleoperation of a Robotic Arm Using a Glove with Multi-modal Feedback
 

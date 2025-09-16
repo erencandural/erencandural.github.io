@@ -3,7 +3,7 @@ layout: default
 title: ME407 Automatic Pet Feeder
 ---
 
-[Home](/) | [Blog](/blog) | [Portfolio](/portfolio) | [Resume](/resume)
+[Home](/) | [Blog](/blog) | [Projects](/projects) | [Resume](/resume)
 
 # ME407 Automatic Pet Feeder
 

@@ -3,7 +3,7 @@ layout: default
 title: Resume
 ---
 
-[Home](/) | [Blog](/blog) | [Portfolio](/portfolio) | [Resume](/resume)
+[Home](/) | [Blog](/blog) | [Projects](/projects) | [Resume](/resume)
 
 # Resume
 

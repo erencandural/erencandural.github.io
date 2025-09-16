@@ -3,7 +3,7 @@ layout: default
 title: ID403 Energy Saving Kit for a Beer Cooler
 ---
 
-[Home](/) | [Blog](/blog) | [Portfolio](/portfolio) | [Resume](/resume)
+[Home](/) | [Blog](/blog) | [Projects](/projects) | [Resume](/resume)
 
 # ID403 Energy Saving Kit for a Beer Cooler
 
