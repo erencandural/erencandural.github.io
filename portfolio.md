@@ -32,3 +32,15 @@ In my master's degree thesis in Politecnico di Milano, I created a virtual envir
 In my bachelor's degree final project in Middle East Technical University, we've created an automatic pet feeder capable of distributing predetermined amounts of kibbles at scheduled times. I was responsible from the entire electromechanical design of the system.
 
 **Concepts:** Arduino IDE, Eagle, Fusion 360, motor control, UI, Proof-of-Concept, Prototyping, 3D CAD, PCB Design, state machines
+
+---
+
+<a href="/portfolio/energykit">
+  <img src="https://imgur.com/RsYoyuJ" alt="ID403 Energy Saving Kit for a Beer Cooler" width="400"/>
+</a>
+
+## [ID403 Energy Saving Kit for a Beer Cooler](projects/petfeeder)
+
+The ID403 Collaborative Design course is a course aimed at non-designers offered by the Industrial Design Department at Middle East Technical University, aimed to put Design Thinking and Interdisciplinary Design teachings into practice.
+
+**Concepts:** Design Thinking, Interdisciplinary Design, Fusion 360, Mechanical Design, Prototyping
