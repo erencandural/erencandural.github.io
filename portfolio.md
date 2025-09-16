@@ -16,7 +16,7 @@ A collection of my projects and work.
   <img src="https://i.imgur.com/Xui0Uhj.jpg" alt="Teleoperation of a Robotic Arm Using a Glove with Multi-modal Feedback" width="400"/>
 </a>
 
-## Teleoperation of a Robotic Arm Using a Glove with Multi-modal Feedback
+## [Teleoperation of a Robotic Arm Using a Glove with Multi-modal Feedback](/projects/teleoperation)
 
 In my master's degree thesis, I created a virtual environment in Unity to control the end effector of a Franka Emika Panda robot using TouchDIVER, a glove developed for XR environments.
 
