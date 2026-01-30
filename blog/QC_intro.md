@@ -13,8 +13,7 @@ This is why I was always fascinated by the prospect of randomness and fortune te
 
 I’ve had the idea of creating a fortune teller project for years. I once saw a fortune-telling automaton in an arcade that sparked this idea. It was a female mannequin that had a crystal ball in front of her, and by placing a hand on the ball, one could have a fortune printed. I was completely transfixed by the automaton, and I even tried to call the number behind it to perhaps do an internship while I was doing my bachelor’s degree. (No one answered, by the way.) This then led me to do my research on the history of these fortune-telling automatons and discover what other kinds existed across different countries.
 
-- [ ] Add a link for that huge website that has all the different fortune teller automatons.
-- [ ] Maybe try and find the pictures of the fortune teller automaton.
+![Fortune Teller Automaton Example](/pictures/automaton_example.jpg)
 
 What pushed me to actually take action, however, was simply the fact that I wasn’t happy with the projects I was doing at work. I wanted to prove to myself that I was capable of doing the mechanical, electrical, and firmware design of a project, with the hope that I could be considered for a design and engineering job.
 
@@ -32,3 +31,5 @@ The device must:
 In the end, I decided to create a device that would print a three-card tarot spread with a thermal printer. I’m using my blog as a dev-log to keep track of my progress and document what I’ve accomplished.
 
 As I’m finishing this post, I’ve already accomplished several of the milestones I’ve set out to do. It’s one of the most rewarding projects I’ve done so far, it’s so rewarding to see your vision come to life, not to reach a KPI or appeal to potential clients or employers.
+
+![Katrina](/pictures/katrina.GIF)
