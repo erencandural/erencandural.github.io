@@ -7,4 +7,16 @@ title: Blog
 
 # Blog
 
-Here’s where I’ll write updates, tutorials, and notes.
+## You can find my dev-logs here.
+
+<a href="/blog/QC_intro.md">
+  <img src="pictures/QVFT_banner.jpg" alt="Queer Coded Fortune Teller: Introduction" width="400"/>
+</a>
+
+## [Queer Coded Fortune Teller: Introduction](/blog/QC_intro.md)
+
+Introductory dev-log for the Queer Coded Fortune Teller.
+
+**Concepts:** Python, Raspberry Pi, Thermal Printer, tkinter, fortune teller, GUI
+
+---
