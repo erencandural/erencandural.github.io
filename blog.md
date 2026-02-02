@@ -9,7 +9,7 @@ title: Blog
 
 ## You can find my dev-logs here.
 
-<a href="/blog/QC_intro.md">
+<a href="/blog/QC_intro">
   <img src="pictures/QVFT_banner.jpg" alt="Queer Coded Fortune Teller: Introduction" width="400"/>
 </a>
 
