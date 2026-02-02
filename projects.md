@@ -11,6 +11,18 @@ A collection of my projects and work.
 
 ---
 
+<a href="/projects/qcft">
+  <img src="pictures/QVFT_banner.jpg" alt="Queer Coded Fortune Teller" width="400"/>
+</a>
+
+## [Queer Coded Fortune Teller](/projects/qcft)
+
+As a side project, I'm developing a fortune teller that prints a three-card tarot spread using a Raspberry Pi Zero 2 W and a thermal printer.
+
+**Concepts:** Raspberry Pi, Thermal Printing, Python, Tkinter, GUI, Fortune Telling, Tarot
+
+---
+
 <a href="/projects/teleoperation">
   <img src="https://i.imgur.com/Xui0Uhj.jpg" alt="Teleoperation of a Robotic Arm Using a Glove with Multi-modal Feedback" width="400"/>
 </a>
