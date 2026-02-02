@@ -5,6 +5,8 @@ title: Home
 
 [Home](/) | [Blog](/blog) | [Projects](/projects) | [Resume](/resume)
 
-# Welcome to my Github page
+# Hello World (or prospective employers)
 
-This is my landing page. 🚀 This site's still under construction but I will be uploading my CV, portfolio and my blog posts here.
+I'm Erencan, an R&D engineer passionate about the intersection of design and technology.
+
+You can fnd my devlogs, the projects I've done or currently working on, and my resume.
