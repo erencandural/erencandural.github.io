@@ -16,7 +16,7 @@ The first iteration of the Queer Coded Fortune Teller (QCFT) project explores ra
    - print the generated fortune via button actions.
 3. Print the generated fortune on a thermal printer.
 
-![RPi Screen](/pictures/RPi_screen.jpg)
+![RPi Screen](/pictures/RPi_screen.png)
 
 ### Hardware
 
@@ -58,7 +58,7 @@ To prevent print artifacts, such as shifted segments caused by overwhelming the 
 At this stage, printing is implemented as a **blocking operation**: while the printer is printing, the Tkinter GUI remains unresponsive until the job completes. This is acceptable for a first iteration and also highlights an obvious next improvement: moving long-running I/O off the UI thread (e.g., via `after()` scheduling or a worker thread + queue) to keep the interface responsive during printing.
 
 <iframe width="560" height="315" 
-  src="https://www.youtube.com/embed/J1-NpNGoC5g" 
+  src="https://youtu.be/embed/J1-NpNGoC5g" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
