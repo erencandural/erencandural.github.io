@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ID403 Energy Saving Kit for a Beer Cooler
+title: Queer Coded Fortune Teller
 ---
 
 [Home](/) | [Blog](/blog) | [Projects](/projects) | [Resume](/resume)
@@ -46,7 +46,6 @@ Conceptually, the GUI behaves like a small state machine, with user events drivi
 
 - **Idle / Displaying Spread**: three cards are shown with meanings
 - **Printing**: print job is in progress and the UI must avoid conflicting actions
-- **Error** (optional): printer failures or missing assets are handled gracefully
 
 In the GUI, three cards are displayed side-by-side with their meanings below using a `grid` layout for consistent alignment. Two buttons control the main transitions:
 
