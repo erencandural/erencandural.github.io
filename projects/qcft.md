@@ -6,7 +6,7 @@ title: Queer Coded Fortune Teller
 [Home](/) | [Blog](/blog) | [Projects](/projects) | [Resume](/resume)
 
 # Queer Coded Fortune Teller
-
+(First published 02/02/2026, last edited on 11/02/2026)
 The first iteration of the Queer Coded Fortune Teller (QCFT) project explores randomness and fortune telling, while serving as a practical refresher in rapid prototyping and Python development. The project has three core tasks:
 
 1. Load tarot card images and meanings, then pick three cards at random.
